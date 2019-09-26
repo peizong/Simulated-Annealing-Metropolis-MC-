@@ -1,0 +1,4 @@
+#!/bin/bash
+cd ../src
+g++ -std=c++11 -DDEGE_GS -DSLOWENUMALGO   -c -o wlce.o new-wlce.cpp
+g++   wlce.o headers.o stringo.o parse.o xtalutil.o integer.o findsym.o calccorr.o clus_str.o getvalue.o wlcehelp.o linalg.o linsolve.o lstsqr.o  -lm -o wlce-sro
