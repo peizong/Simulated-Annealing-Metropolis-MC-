@@ -1,0 +1,10 @@
+struct,NUMofComponent,N_final,T_initial,T_final,NT_sample,NN?,heat/cool
+1,structType
+5,NumOfComponent
+10000,totalSteps
+100,initialTemp
+1500,finalTemp
+500,samplingPointsOfTemp
+1,NeareastNeighborApproximation
+1,cooling
+0,show-labels
